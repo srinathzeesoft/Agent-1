@@ -1,10 +1,10 @@
 {
-  "lock": "Restringir acesso acesso",
-  "unLock": "Liberar acesso check cfdfcds fdfs fdsfds fdfdsf fff ggg ggg tt ttt ttt ttt ff rr rr rr rr",
-  "validate": "Confirmar ação ação ação",
-  "create": "Criar registro",
-  "edit": "Editar registro",
-  "delete": "Excluir registro",
-  "view": "Visualizar registro",
-  "update": "Annuer Annuer"
+  "test purpose.json.lock": "",
+  "test purpose.json.unLock": "",
+  "test purpose.json.validate": "",
+  "test purpose.json.create": "",
+  "test purpose.json.edit": "",
+  "test purpose.json.delete": "",
+  "test purpose.json.view": "",
+  "test purpose.json.update": ""
 }
