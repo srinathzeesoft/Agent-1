@@ -1,5 +1,5 @@
 Mkt3L10n.AccountAnalyzerChart = {
-  Trend: "Trend",
+  Trend: "Trend now now now now now nown nnow",
   Opportunity: "Opportunity",
   Opportunity: "Opportunity",
   Opportunity: "Opportunity",
