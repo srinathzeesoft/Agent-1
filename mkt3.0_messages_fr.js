@@ -292,9 +292,9 @@ Mkt3L10n.inAppControlPanel = {
   Display_Limit: "Limite d’affichage",
   Mobile_App: "Application mobile",
   Display_Trigger: "Déclencheur d’affichage",
-  Resume: "Resume",
   optional: "optionnel",
   Edit_In_App_Message: "Modifier le message interne à l’application",
+  Resume: "Resume",
   Audience: "Public",
   Approve_And_Launch: "Approuver et lancer",
   Start_Date: "Date de début",
@@ -306,10 +306,10 @@ Mkt3L10n.inAppControlPanel = {
   In_App_Message: "Message interne à l’application",
   View_Results: "Afficher les résultats",
   Schedule: "Programmation",
-  Display_no_more_than_once_per_app_: "Ne s’affiche pas plus d’une fois par ouverture et fermeture de l’application",
   Approve_And_Schedule: "Approuver et programmer",
   Set_Program_Schedule: "Fixez le calendrier du programme",
   Stop_Program: "Arrêter le programme",
+  Display_no_more_than_once_per_app_: "Ne s’affiche pas plus d’une fois par ouverture et fermeture de l’application",
   Choose_In_App_Message: "Choisir le message que l’audience doit recevoir",
   Selected_Message_Not_Approved: "Ce message interne à l’application n’est pas approuvé",
   Edit_Smart_List: "Modifier la liste intelligente",
@@ -360,15 +360,6 @@ Mkt3L10n.socialAppEditorContent = {
   I_Have_Read_And_Accepted_rules: "J’ai lu et j’accepte le <a>règlement</a>.",
   Whats_On_Your_Mind: "Exprimez-vous?",
   This_Displays_The_Caption: "Ceci affiche la légende"
-};
-Mkt3L10n.emailBlastHeadStartABTestConfirmForm = {
-  Html_AB_And: "",
-  Html_AB_Recipient_Time_Zone: "",
-  Add_AB_Test: "Ajouter un test A/B",
-  Html_AB_Head_Start: "",
-  Html_AB_Details_Suffix: "",
-  Html_AB_Details_Prefix: "Voulez-vous désactiver",
-  Add: "Ajouter"
 };
 Mkt3L10n.nurtureTouch = {
   Engagement: "Engagement: {0}",
@@ -636,7 +627,6 @@ Mkt3L10n.nurtureTrackPanel = {
   nth_weekday_of_nMonth: "{0} {1} de chaque {2}",
   Set_Track_Cadence: "Définir le rythme du stream",
   Monday_abbrev: "Lun",
-  Day_after_: "",
   First: "Premier",
   Sunday_abbrev: "Dim",
   Day_of_every_nMonth: "Le {0} jour {1} de chaque",
@@ -645,15 +635,16 @@ Mkt3L10n.nurtureTrackPanel = {
   _and_: "{0} et {1}",
   Transition_Rules_Missing_Trigger: "Les règles de transition requièrent un déclencheur",
   Saturday_abbrev: "Sam",
-  Transition_Rules_Error: "Les règles de transition contiennent une erreur",
   Thursday_abbrev: "Jeu",
-  Day_before_: "",
+  Transition_Rules_Error: "Les règles de transition contiennent une erreur",
   month: "mois",
   Last_day_of_every_nMonth: "Le dernier jour de chaque {0}",
   Next_Cast: "Prochaine distribution : {0}",
   Fourth: "Quatrième",
   Wednesday_abbrev: "Merc",
-  Friday_abbrev: "Vend"
+  Friday_abbrev: "Vend",
+  Day_after_: "",
+  Day_before_: ""
 };
 Mkt3L10n.nurtureDashboard = {
   Lowest_Engagement: "Engagement le plus faible",
@@ -672,7 +663,6 @@ Mkt3L10n.nurtureDashboard = {
   Show_: "Afficher :",
   Paused: "En pause",
   arg0_leads_will_be_exhausted_in_arg1_cast: "{0} leads seront épuisés dans {1} distributions",
-  Date_: "",
   time_unit_w: "w",
   arg0_leads_were_exhausted_for_arg1_cast: "{0} leads ont été épuisés pour {1} distributions",
   arg0_leads_with_arg1: "{0} leads portant le statut « {1} »",
@@ -682,7 +672,6 @@ Mkt3L10n.nurtureDashboard = {
   time_unit_d: "d",
   arg0_leads_become_exhausted_in_the_last_cast: "{0} leads ont été épuisé lors de la dernière distribution",
   Updated_assets_: "Ressources mises à jour :",
-  Engagement_: "",
   arg0_leads_were_exhausted_for_arg1_casts: "{0} les leads ont été épuisés en {1} distributions",
   Track_colon_agr0: "<b>Stream :</b> {0}",
   Engagement: "Engagement",
@@ -691,7 +680,9 @@ Mkt3L10n.nurtureDashboard = {
   Progression_Status: "Statut du programme",
   Exhausted: "Épuisé",
   Casts_exhausted: "Distributions épuisées",
-  arg0_leads_will_be_exhausted_in_arg1_casts: "{0} les leads seront épuisés dans {1} distributions"
+  arg0_leads_will_be_exhausted_in_arg1_casts: "{0} les leads seront épuisés dans {1} distributions",
+  Date_: "",
+  Engagement_: ""
 };
 Mkt3L10n.ViewSelectionPanel = {
   Select_a_View: "Sélectionner un affichage...",
@@ -728,8 +719,8 @@ Mkt3L10n.mktocustomactivityActivityDetailsPanel = {
   StringType: "string",
   IntegerType: "integer",
   DedupeFields: "Éliminer les champs dupliqués",
-  CurrencyType: "currency",
   Mode: "État",
+  CurrencyType: "currency",
   PhoneType: "téléphone",
   FloatType: "float",
   LinkType: "lien",
@@ -1005,12 +996,12 @@ Mkt3L10n.abmDashboard = {
   People: "Personne",
   Pipeline: "Pipeline",
   Open_Opportunities: "Opportunités ouvertes",
-  Account_Owner_: "",
   Named_Accounts: "Comptes nommés",
   My_Accounts: "Mes comptes",
   Account_Owner_Not_Assigned: "Détenteur du compte : Non attribué",
   Account_Score_Percentile: "Évaluation du compte en centile",
-  View: "Afficher"
+  View: "Afficher",
+  Account_Owner_: ""
 };
 Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   Paging_EmptyMsg: "Aucun service configuré",
@@ -1018,7 +1009,6 @@ Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   The_following_are_automatically_mapped_: "Les éléments suivants sont mappés automatiquement :",
   ok: "ok",
   Authorize_Marketo_Facebook: "Autoriser Marketo",
-  Sure_want_to_delete: "",
   Webex: "Webex",
   Zoom: "Zoom",
   HootSuite: "HootSuite",
@@ -1048,12 +1038,12 @@ Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   Login_to_cvent_eu: "Connexion à Cvent",
   None: "Aucun",
   Fail: "Échec",
+  webex_webinar_account_set: "Compte Webex Webinars configuré",
   Success: "Succès",
   Enter_credentials_cvent_site: "Saisir vos identifiants sur le site Cvent",
   Authorize_Marketo_HootSuite: "Autoriser Marketo",
   Custom: "Personnalisé",
   Calendar_integration_login: "Identifiant d'intégration au calendrier",
-  webex_webinar_account_set: "Compte Webex Webinars configuré",
   Map_Default_Fields_Tracking_Param: "nom complet, état, pays, e-mail, ville, date de naissance, prénom, nom de famille, adresse postale, fonction, numéro de téléphone, nom de l’entreprise, code postal</br><b>* - Représente la question personnalisée des publicités à formulaire Facebook.</b></br><b>** - Représente le paramètre de suivi Facebook.</b>",
   Login_to_zoom: "Connexion à Zoom",
   Participant_password: "Mot de passe participant",
@@ -1083,9 +1073,9 @@ Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   Facebook_requires_that_you_integrate_with_a_Business_Manager_if_you_want_to_use_Offline_Conversions: "Conformément aux exigences de Facebook, vous devez vous intégrer avec un Gestionnaire d’activités pour pouvoir utiliser les conversions hors ligne.",
   API_Key_Unset: "Non réglé",
   MatchingMode: "Mode de correspondance :",
+  Authorize_Marketo: "Autoriser Marketo",
   cvent_stage_account_set: "Le compte Cvent est configuré",
   Host_name: "Nom d’hôte",
-  Authorize_Marketo: "Autoriser Marketo",
   Client_key: "Code client",
   Authorize_With_Google: "Autoriser avec Google",
   Enter_credentials_cvent_stage_site: "Saisir vos identifiants sur le site Cvent",
@@ -1164,11 +1154,11 @@ Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   Duplicate_Launchpoint_Service: "Dupliquer le service launchpoint",
   Cancel: "Annuler",
   Key_and_Secret_are_found_on_the_LinkedIn_Developers_Page: "Les valeurs Clé et Secret figurent à la page des développeurs LinkedIn. <a href=\\\"https://business.linkedin.com/marketing-solutions\\\" target=\\\"_blank\\\">En savoir plus</a>",
-  Cvent_EU: "Cvent Europe",
   Delete: "Supprimer",
   Vibes: "Vibes",
   Delete_login: "Supprimer l'identifiant?",
   Cvent: "Cvent États-Unis",
+  Cvent_EU: "Cvent Europe",
   Last_Click: "Dernier clic",
   ClientSecret: "Secret client",
   Company_key_Help: "Saisissez la clé d’entreprise que Vibes vous a attribuée pour l’accès à l’API",
@@ -1182,7 +1172,6 @@ Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   cvent_eu_account_set: "Le compte Cvent est configuré",
   New_Service: "Nouveau service",
   FacebookLeadAds: "Publicités de lead Facebook",
-  Send_Frequency: "",
   Login_to_webex_webinar: "Se connecter à Webex Webinars",
   Sure_to_delete_multiple_logins: "Voulez-vous vraiment supprimer plusieurs identifiants ?",
   cvent_account_forbidden: "Compte Cvent interdit",
@@ -1191,7 +1180,9 @@ Mkt3L10n.launchpointServiceIntegrationSettingsForm = {
   Map_duplicate_fields: "Un champ Facebook portant le nom spécifié a déjà été mappé à un champ Marketo. Veuillez renommer le champ de formulaire Facebook afin qu’il soit unique et puisse être mappé.",
   Meeting_folder_id: "ID de dossier réunion",
   Active: "Actif",
-  Total_DisplayMsg: "{0} éléments"
+  Total_DisplayMsg: "{0} éléments",
+  Sure_want_to_delete: "",
+  Send_Frequency: ""
 };
 Mkt3L10n.mobilePushNotificationPreviewerIosPanel = {
   Ios: "iOS",
@@ -1231,7 +1222,6 @@ Mkt3L10n.formEditorConversationalFormChoices = {
   If_Visitor_Meets_Following_Criteria: "Si le visiteur ou la visiteuse répond aux critères suivants:",
   Any: "Tous",
   Form: "Formulaire",
-  Add_Criteria: "",
   Select_Attribute: "Sélectionner attribut...",
   Delivery_Type: "Type de diffusion",
   In_line: "Intégré",
@@ -1240,7 +1230,8 @@ Mkt3L10n.formEditorConversationalFormChoices = {
   Advanced: "Avancé",
   Add_Choice: "Ajouter un choix",
   Criteria_Logic: "Logique des critères",
-  Pop_Up: "Pop-up"
+  Pop_Up: "Pop-up",
+  Add_Criteria: ""
 };
 Mkt3L10n.ImagePicker = {
   Search_in: "Rech. en",
@@ -1292,17 +1283,6 @@ Mkt3L10n.mobilePushNotificationSendSampleForm = {
   Send_To: "Envoyer à",
   Waiting_For_Url_Page_Visit: "En attente de l’ouverture de l’URL..."
 };
-Mkt3L10n.launchpointAuthorizeForm = {
-  Permissions: "Permissions",
-  You_can_unauthorize: "Vous pouvez annuler l’autorisation et supprimer le service à tout moment",
-  Service_Name: "Nom du service",
-  Authorize_LaunchPoint_Service: "Autoriser le service LaunchPoint (point de lancement)",
-  Installation_Successful: "Installation réussie",
-  Description: "Description",
-  Arg0_Will_be_able_to: "{0} pourra",
-  This_application_will_create_a_new_service: "Cette application va créer un nouveau service",
-  Authorize: "Autoriser"
-};
 Mkt3L10n.abmImportAccountCanvas = {
   No_Accounts_Found: "Aucun compte trouvé dans le fichier importé",
   munchkin_at_marketo_dot_com: "munchkin@marketo.com,...",
@@ -1343,7 +1323,6 @@ Mkt3L10n.abmImportAccountCanvas = {
   By_Account_Name: "Par nom de compte",
   DeDuplicate_Named_Accounts_With_Domain_Name: "Dédupliquer les comptes nommés avec le <b>nom de domaine</b>",
   Name: "Nom",
-  New: "",
   None: "Aucun",
   An_Unxpected_Error_Occurred: "Une erreur inattendue s’est produite. Veuillez réessayer.",
   Account_List_Name: "Nom de liste de compte",
@@ -1368,7 +1347,8 @@ Mkt3L10n.abmImportAccountCanvas = {
   Update_Named_Account_Attributes: "Mettre à jour les attributs du compte nommé",
   Field_Mapping: "Appariement des champs",
   Please_map_name: "* Le champ Compte nommé doit être mappé",
-  logoUrl: "Logo URL"
+  logoUrl: "Logo URL",
+  New: ""
 };
 Mkt3L10n.CalendarEntryTypesPanel = {
   arg0_Items: "{0} éléments",
@@ -1473,7 +1453,6 @@ Mkt3L10n.contentActionsMenu = {
   Edit_Availability: "Modifier la disponibilité",
   Archive_Content: "Archiver le contenu ?",
   Preview: "Aperçu",
-  Cannot_edit_availability: "",
   Deactivate: "Désactiver",
   Approve: "Approuver",
   Send_Test: "Envoyer un échantillon",
@@ -1490,8 +1469,9 @@ Mkt3L10n.contentActionsMenu = {
   Activate: "Activer",
   smart_campaign_is_not_active: "<b>{0}</b> n'est pas actif",
   Preview_Draft: "Aperçu du brouillon",
+  Go_To_Email: "Aller à l'e-mail",
   Edit_Draft: "Modifier le brouillon",
-  Go_To_Email: "Aller à l'e-mail"
+  Cannot_edit_availability: ""
 };
 Mkt3L10n.vespa = {
   Android: "Android",
@@ -1766,11 +1746,11 @@ Mkt3L10n.fieldValidationRuleForm = {
   Blank_Values: "Valeurs vides",
   HTML_Example: "<p>, <script>, etc",
   Name: "Nom",
-  Regex_Example: "",
   HTML: "HTML",
   Email: "E-mail",
   Disallow: "Interdire",
-  Action: "Action"
+  Action: "Action",
+  Regex_Example: ""
 };
 Mkt3L10n.adminAbmReportSettingsForm = {
   Friday: "Vendredi",
@@ -1856,8 +1836,8 @@ Mkt3L10n.emailEditorSettingsForm = {
   version: "Version de l’éditeur d’e-mail",
   isWebView_tooltip: "L’e-mail inclut déjà le jeton {{system.viewAsWebpageLink}}",
   Editor_Settings: "Paramètres de l’éditeur d’e-mail",
-  Note: "",
-  enableTemplates: "Activer les modèles de démarrage Marketo"
+  enableTemplates: "Activer les modèles de démarrage Marketo",
+  Note: ""
 };
 Mkt3L10n.abmIcpModelingDashboard = {
   Updating_Known_Accounts_Succeeded: "Comptes connus mis à jour avec succès",
@@ -1933,10 +1913,10 @@ Mkt3L10n.email2HeaderEditor = {
   INSERT_TOKEN_TOOLTIP: "Insérer le jeton",
   SUBJECT: "Objet",
   Domain_Not_Using_Customer_DKIM_Signature: "Le domaine n’utilise pas de signature DKIM personnalisée",
-  SELECT_DEDICATED_IP: "",
   HEADER_TOOLTIP_MAKE_DYNAMIC: "Rendre dynamique",
   BRANDED_DOMAIN: "Nom de domaine",
-  FROM_EMAIL: "Adresse de l'expéditeur"
+  FROM_EMAIL: "Adresse de l'expéditeur",
+  SELECT_DEDICATED_IP: ""
 };
 Mkt3L10n.adminSalesInsightInstallWizard = {
   I_Have_Read_The_Disclaimer: "J’ai lu la clause de non-responsabilité et j’accepte les exigences susmentionnées avant de continuer",
@@ -2027,8 +2007,8 @@ Mkt3L10n.Canvas = {
   Preview_Draft: "Aperçu du brouillon",
   Upload_Image_or_File: "Charger l'image ou le fichier",
   View: "Afficher",
-  Social_App: "App sociale",
   Approve: "Approuver",
+  Social_App: "App sociale",
   Marketo_Email_Designer: "Éditeur d'e-mail Marketo",
   Email_Content: "Contenu d'e-mail",
   Edit_Draft: "Modifier le brouillon",
@@ -2164,7 +2144,6 @@ Mkt3L10n.mktocustomactivityActivityTypeForm = {
   Attribute_Constraint: "Attribuer contrainte",
   Error_Name_Length_Exceeds_Limit: "Le nom d’affichage et le nom d’API doivent chacun contenir au maximum 255 caractères.",
   Filter_Name_Empty_Text: "ex. A acheté le produit",
-  Trigger_And_Filter_Note: "",
   CurrencyType: "currency",
   New_Custom_Activity: "Nouvelle activité personnalisée",
   Primary_Field: "Champ primaire",
@@ -2175,14 +2154,14 @@ Mkt3L10n.mktocustomactivityActivityTypeForm = {
   DateType: "date",
   FloatType: "float",
   TextType: "Texte",
-  Select: "Sélectionner…"
+  Select: "Sélectionner…",
+  Trigger_And_Filter_Note: ""
 };
 Mkt3L10n.facebookPushToFacebookForm = {
   Replace_An_Existing_Audience: "Remplacer une audience existante",
   Facebook: "Facebook",
   Keep_Audience_Membership_In_Sync: "Conserver la synchronisation des membres",
   Ad_Account: "Compte publicitaire",
-  Status: "",
   Ad_Network_Audience_Sync_Activated_Success_Message: "Synchronisation de l’audience du réseau publicitaire activée avec succès",
   Update: "Mettre à jour",
   Updating: "Mise à jour de",
@@ -2209,10 +2188,11 @@ Mkt3L10n.facebookPushToFacebookForm = {
   LinkedIn_deprecated_Matched_audience_error_message: "Votre service LinkedIn Audience Match Launchpoint a expiré. Mettez à jour le service dans administrateur.",
   Remove_Leads_From_Audience: "Supprimer des leads de l’audience",
   Done: "Fait",
-  Google_Ad_User_Consent: "",
   Audience_Name: "Nom de l’audience",
   Google: "Google",
-  Select_: "Sélectionner…"
+  Select_: "Sélectionner…",
+  Status: "",
+  Google_Ad_User_Consent: ""
 };
 Mkt3L10n.inAppMessageEditorCloseButtonStyle = {
   Recommended: "Recommandation :<br/>32 x 32 et moins de 200 Ko",
@@ -2252,6 +2232,17 @@ Mkt3L10n.presentationGoalsTreePanel = {
   Goals: "Objectifs",
   Custom_Goal: "Objectif personnalisé",
   Smart_List_Goal: "Objectif de liste intelligente"
+};
+Mkt3L10n.launchpointAuthorizeForm = {
+  Permissions: "Permissions",
+  You_can_unauthorize: "Vous pouvez annuler l’autorisation et supprimer le service à tout moment",
+  Service_Name: "Nom du service",
+  Authorize_LaunchPoint_Service: "Autoriser le service LaunchPoint (point de lancement)",
+  Installation_Successful: "Installation réussie",
+  Description: "Description",
+  Arg0_Will_be_able_to: "{0} pourra",
+  This_application_will_create_a_new_service: "Cette application va créer un nouveau service",
+  Authorize: "Autoriser"
 };
 Mkt3L10n.mktocustomactivityContextMenu = {
   Delete_Object: "Supprimer l’activité",
@@ -2379,7 +2370,6 @@ Mkt3L10n.emailBlastControlPanel = {
   Email_program_is_in_progress_and_cannot_be_unapproved: "Le programme d’e-mail est en cours et ne peut pas être désapprouvé. Souhaitez-vous plutôt abandonner le programme?",
   Head_Start_Details: "<b>La Longueur d’avance</b> commence à traiter votre public et vos e-mails {0} heures à l’avance pour des livraisons plus rapides",
   Test_Is_Missing_A_From_Email_Address: "Il manque une adresse e-mail expéditeur au test",
-  Head_Start_Details_Recipient_Time_Zone_Note: "",
   Approve_Program: "Approuver le programme",
   Please_Try_Again: "Veuillez réessayer",
   Abort_Program: "Abandonner le programme",
@@ -2459,7 +2449,8 @@ Mkt3L10n.emailBlastControlPanel = {
   Removing_Test_Will_Erase_Test_Info: "Supprimer le test écrasera toutes vos informations de test",
   Failed_While_Sending_Test: "Échec lors de l'envoi du test",
   Choose_Your_Email: "Sélectionnez votre e-mail",
-  Approved: "Approuvé"
+  Approved: "Approuvé",
+  Head_Start_Details_Recipient_Time_Zone_Note: ""
 };
 Mkt3L10n.mktocustomactivity = {
   Are_you_sure_you_want_to_delete_strong: "Attendez ! Voulez-vous vraiment effectuer cette action ?<br><br><b>Nom de l’activité : {0}</b><br><br>Lorsque vous supprimez ce type d’activité, ce sera comme si ces données n’avaient jamais existé.<br><br>Si vous voulez vraiment effectuer cette action, veuillez confirmer en saisissant <b>Je comprends</b> dans la zone de texte ci-dessous.<br><br><div class='mktMessageIndent mktRequired'><b>Confirmer :</b><span id='mktTypeTextWrap'></span><br><span id='mktAgreeCbWrap'></span></div>",
@@ -2537,7 +2528,6 @@ Mkt3L10n.mktocustomobjectPreview = {
   Fields: "Champs",
   TextType: "Texte",
   DedupeFields: "Éliminer les champs dupliqués",
-  arg0_to_arg1_of_arg2_fields_: "",
   IntegerType: "integer",
   Unpublished: "Nouveau",
   Guid: "GUID",
@@ -2572,7 +2562,8 @@ Mkt3L10n.mktocustomobjectPreview = {
   Constraint: "Contrainte",
   Create: "Nouveau",
   Published: "Approuvé",
-  Plural: "Nom pluriel"
+  Plural: "Nom pluriel",
+  arg0_to_arg1_of_arg2_fields_: ""
 };
 Mkt3L10n.vespaAppDetailsPanel = {
   Push_Access: "Accès aux notifications Push",
@@ -2654,7 +2645,6 @@ Mkt3L10n.adminSsfsServiceWizard = {
   Next: "Suivant",
   Support_Email: "E-mail du service d’assistance : {0}",
   Click_Authorize_Button: "Cliquez sur le bouton AUTORISER pour continuer",
-  Service_Provider_not_Found: "",
   Approve_Context_Instruction: "<b>{0}</b> demande l’accès aux contextes de données suivants.<br>Lorsque <b>{1}</b> est invoqué depuis une Campagne intelligente, les données provenant de ces objets seront envoyées en tant qu’informations contextuelles à <b>{0}</b>, de sorte que le traitement puisse se terminer.",
   Flow_Step_Service: "Étape de déroulement du service",
   Optional_Mapping_Completed: "{0} mappage(s) facultatif(s) terminé(s) sur {1}",
@@ -2668,7 +2658,6 @@ Mkt3L10n.adminSsfsServiceWizard = {
   Oauth2_Button_Instruction: "Veuillez cliquer sur le bouton ci-dessous pour lancer l’authentification avec <b>{0}</b>.<br>Cette action permet de créer une fenêtre contextuelle vous demandant d’autoriser Marketo à interagir avec les API fournies par <b>{0}</b>.<br>Des identifiants d’API valides provenant de <b>{0}</b> sont nécessaires pour terminer l’installation.",
   Basic_Instruction: "Veuillez fournir le nom d’utilisateur et le mot de passe.<br>Des identifiants d’API valides provenant de <b>{0}</b> sont nécessaires pour terminer l’installation.",
   My_Tokens: "Mes jetons",
-  Service_Name_not_Found: "",
   Resolve_Collision: "Résoudre les collisions",
   Configuration_Option_Note: "<b>Remarque :</b> Les champs en <i>italique</i> sont envoyés sous forme d'en-têtes HTTP lors d'un accès.",
   Outgoing_Mapping_Instruction: "<b>{0}</b> a fourni une liste des champs facultatifs et obligatoires à mapper avec les champs Lead Marketo.<br>Les champs mappés et actifs sont envoyés au fournisseur de service lorsque <b>{1}</b> est invoqué depuis une Campagne intelligente.<br>Les mappages obligatoires doivent être terminés et actifs pour terminer l’installation du service.",
@@ -2723,7 +2712,9 @@ Mkt3L10n.adminSsfsServiceWizard = {
   Activity_Type_API_Name: "Nom de l’API du type d’activité",
   Realm: "Domaine",
   Invalid_Input_For_: "Entrée non valide pour '{0}'",
-  Confirm_URL: "Saisissez l'URL de l'interface du fournisseur de services"
+  Confirm_URL: "Saisissez l'URL de l'interface du fournisseur de services",
+  Service_Provider_not_Found: "",
+  Service_Name_not_Found: ""
 };
 Mkt3L10n.nurtureTrack = {
   Smart_List: "Liste intelligente",
@@ -2972,11 +2963,11 @@ Mkt3L10n.MktCalendarIcons = {
   Bowling_Pins: "Quilles",
   Drink: "Boisson",
   Cake_Slice: "Part de gâteau",
+  Piggy_Bank: "Tirelire",
   Ambulance: "Ambulance",
   Wrench: "clé",
   Eye: "Œil",
   Stopwatch: "Chronomètre",
-  Piggy_Bank: "Tirelire",
   Wind_Engine: "Moulin à vent",
   Object_Cone: "Objet Cône",
   Photo_Landscape: "Photo Paysage",
@@ -2986,13 +2977,13 @@ Mkt3L10n.MktCalendarIcons = {
   Suitcase: "Valise",
   Thought: "Pensée",
   Dude3: "Homme3",
-  Newspaper: "Journal",
   Dictionary: "Dictionnaire",
   Hammer: "Marteau",
   Balloon: "Ballon",
   Paperclip: "Trombone",
   Mail: "E-mail",
   Wooden_Pallet: "Palette de bois",
+  Newspaper: "Journal",
   Phone_Receiver: "Combiné téléphonique",
   Bacon: "Bacon",
   Step: "Étape",
@@ -3195,116 +3186,6 @@ Mkt3L10n.EditEntryDescriptionForm = {
   Edit_Description: "Modifier la description",
   Description_Emptytext: "Description...",
   Description: "Description"
-};
-Mkt3L10n.fileUploadForm = {
-  URL: "URL",
-  Grab_Images_from_Web: "Utiliser des images de la page Internet",
-  Box: "Box",
-  Folder: "Dossier",
-  Back: "Retour",
-  Save_in_Folder: "Enregistrer dans le dossier",
-  Select: "Sélectionner…",
-  Web_Page: "Page Internet",
-  Cancel: "Annuler",
-  Import_From: "Importer depuis",
-  Select_Images_Label: "Cliquez sur les images que vous souhaitez télécharger",
-  Uploaded_Images_Label: "Ces images ont été importées",
-  Next: "Suivant",
-  Close: "Fermer",
-  Import: "Importer"
-};
-Mkt3L10n.templateCarousel = {
-  Desktop: "Bureau",
-  Select: "SÉLECTIONNER",
-  Email: "E-mail",
-  None: "Aucun",
-  Mobile: "Mobile",
-  Loading: "Chargement en cours…",
-  Description: "Description",
-  Emails: "E-mails",
-  Approved: "Approuvé",
-  Close: "FERMER",
-  No_Description_Available: "Aucune description disponible",
-  Used_By: "Utilisé par",
-  Created: "Créé"
-};
-Mkt3L10n.formFieldSelection = {
-  Number_Of_Blank_Fields: "Nombre de champs vides",
-  Autofill: "Remplissage automatique",
-  Delete_field: "Supprimer le champ",
-  Min_Value: "Valeur mini:",
-  Field_Label: "Champ:",
-  Text: "Texte",
-  Waiting_Label: "Intitulé d'attente :",
-  Max_Length: "Longueur maximale:",
-  Blacklisted_Domains: "Domaines figurant sur la liste de blocage:",
-  Form_Pre_Fill_Disabled: "Le pré-remplissage automatique a été désactivé pour ce champ.",
-  Label_To_Right: "Intitulé à Droite:",
-  Value_List: "Liste des valeurs :",
-  Disabled: "Désactivé",
-  Email: "E-mail",
-  Progressive_Profiling: "Profilage progressif",
-  Visible_Lines: "Lignes visibles:",
-  Get_Dynamic_Value: "Obtenir une valeur dynamique :",
-  Properties: "Propriétés",
-  Rich_Text: "Texte complet",
-  Hidden: "Masqué",
-  Submit_Button_Properties: "Bouton d'envoi",
-  Number: "Nombre",
-  Visibility_Rules: "Règles de visibilité:",
-  Add_New_Field_Tooltip: "Ajouter un nouveau champ",
-  Mask_Input: "Masque de saisie :",
-  Get_Value_From_Url_Parameter: "Obtenir une valeur à partir du paramètre URL",
-  Delete: "Supprimer",
-  Checkbox: "Case à cocher",
-  Max_Value: "Valeur maxi",
-  Edit: "Modifier",
-  Initially_Checked: "Cochée initialement:",
-  Select: "Sélectionner",
-  Styles: "Styles",
-  Fieldset_Label: "Étiquette de jeu de champs",
-  Field_Width: "Largeur du champ",
-  Currency: "Devise",
-  Default_Value: "Valeur par défaut:",
-  Use_Default_Value: "Utiliser la valeur par défaut :",
-  Enable_Global_Form_Validation_Rule: "Règles générales de validation du formulaire",
-  Multiple_Selections: "Choix multiple:",
-  If_checked_prior_value_will_be_shown_when_form_is_rendered: "Si cochée, la valeur précédente sera affichée à la remise du formulaire",
-  Time: "heure",
-  Enable_Form_Captcha: "CAPTCHA",
-  Label_Width: "Largeur de l'intitulé",
-  DragButtonToReposition: "Faire glisser le bouton pour le repositionner",
-  Instructions: "Instructions:",
-  Values: "Valeurs:",
-  Get_Value_From_Cookie: "Obtenir une valeur à partir du cookie",
-  Text_Area: "Zone de texte",
-  Checkboxes: "Cases à cocher",
-  Label: "Intitulé :",
-  Color: "couleur",
-  Edit_Count: "Modifier ({0})",
-  Standard: "Standard",
-  Button_Style: "Style du bouton:",
-  Select_Marketo_Field: "Sélectionner le Champ Marketo",
-  Offset_Width: "Largeur du retrait:",
-  Datetime: "datetime",
-  Float: "Flottante",
-  Enabled: "Activé",
-  Date: "Date",
-  Slider: "Curseur",
-  Hint_Text: "Conseil:",
-  Error_Message: "Message de validation",
-  Behavior: "Comportement",
-  Double: "Double",
-  Select_Default: "Sélectionner…",
-  Url: "URL",
-  Field_Type: "Type de champ",
-  Telephone: "Téléphone",
-  Append: "Joindre:",
-  Is_Required: "Est requis:",
-  Parameter_Name: "Nom du paramètre :",
-  Custom: "Personnalisé",
-  Form_Pre_Fill: "Préremplissage du formulaire :",
-  Radio_Buttons: "Cases d'option"
 };
 Mkt3L10n.abmAccountListAdBridgeForm = {
   Ad_bridge_partner_ad_message_turn: "L’intégration de Digital Hub de Turn dans Marketo permet aux professionnels du marketing d’augmenter la conversion et de réduire les coûts d’acquisition client en atteignant des publics pertinents via des annonces, appareils mobiles, vidéos, réseaux sociaux et programmes télévisés.<br/><br/><a href='http://launchpoint.marketo.com/turn/1288-turn-dmp' target='_blank'>En savoir plus</a>",
@@ -3802,8 +3683,8 @@ Mkt3L10n.mktMobilePushNotification = {
   Discarding_Draft: "Abandonner l’avant-projet",
   You_must_approve_again: "Veuillez approuver de nouveau pour que les changements entrent en vigueur.",
   Mobile_Push_Notification_Delete_Not_Allowed_As_Approved: "<b>{0}</b> est approuvé et doit être non approuvé avant de le supprimer",
-  Are_you_sure_you_want_to_delete: "",
-  Mobile_Push_Notification_Delete_Not_Allowed: "<b>{0}</b> est en cours d’utilisation et ne peut pas être supprimé"
+  Mobile_Push_Notification_Delete_Not_Allowed: "<b>{0}</b> est en cours d’utilisation et ne peut pas être supprimé",
+  Are_you_sure_you_want_to_delete: ""
 };
 Mkt3L10n.Sender = {
   Send: "Envoyer",
@@ -3957,8 +3838,8 @@ Mkt3L10n.customFlowActions = {
   Service_Id: "ID du service",
   Grant_Type: "Type de subvention",
   Configuration_Options: "Options de configuration",
-  Password: "Mot de passe",
   Message: "Message",
+  Password: "Mot de passe",
   Description: "Description",
   Client_Id: "ID client",
   Log_Type: "Type de journal",
@@ -4003,6 +3884,116 @@ Mkt3L10n.customFlowActions = {
   Status_Read: "Lu",
   Incoming_Field_Mapping: "Mappage de champ entrant"
 };
+Mkt3L10n.fileUploadForm = {
+  URL: "URL",
+  Grab_Images_from_Web: "Utiliser des images de la page Internet",
+  Box: "Box",
+  Folder: "Dossier",
+  Back: "Retour",
+  Save_in_Folder: "Enregistrer dans le dossier",
+  Select: "Sélectionner…",
+  Web_Page: "Page Internet",
+  Cancel: "Annuler",
+  Import_From: "Importer depuis",
+  Select_Images_Label: "Cliquez sur les images que vous souhaitez télécharger",
+  Uploaded_Images_Label: "Ces images ont été importées",
+  Next: "Suivant",
+  Close: "Fermer",
+  Import: "Importer"
+};
+Mkt3L10n.templateCarousel = {
+  Desktop: "Bureau",
+  Select: "SÉLECTIONNER",
+  Email: "E-mail",
+  None: "Aucun",
+  Mobile: "Mobile",
+  Loading: "Chargement en cours…",
+  Description: "Description",
+  Emails: "E-mails",
+  Approved: "Approuvé",
+  Close: "FERMER",
+  No_Description_Available: "Aucune description disponible",
+  Used_By: "Utilisé par",
+  Created: "Créé"
+};
+Mkt3L10n.formFieldSelection = {
+  Number_Of_Blank_Fields: "Nombre de champs vides",
+  Autofill: "Remplissage automatique",
+  Delete_field: "Supprimer le champ",
+  Min_Value: "Valeur mini:",
+  Field_Label: "Champ:",
+  Text: "Texte",
+  Waiting_Label: "Intitulé d'attente :",
+  Max_Length: "Longueur maximale:",
+  Blacklisted_Domains: "Domaines figurant sur la liste de blocage:",
+  Form_Pre_Fill_Disabled: "Le pré-remplissage automatique a été désactivé pour ce champ.",
+  Label_To_Right: "Intitulé à Droite:",
+  Value_List: "Liste des valeurs :",
+  Disabled: "Désactivé",
+  Email: "E-mail",
+  Progressive_Profiling: "Profilage progressif",
+  Visible_Lines: "Lignes visibles:",
+  Get_Dynamic_Value: "Obtenir une valeur dynamique :",
+  Properties: "Propriétés",
+  Rich_Text: "Texte complet",
+  Hidden: "Masqué",
+  Submit_Button_Properties: "Bouton d'envoi",
+  Number: "Nombre",
+  Visibility_Rules: "Règles de visibilité:",
+  Add_New_Field_Tooltip: "Ajouter un nouveau champ",
+  Mask_Input: "Masque de saisie :",
+  Get_Value_From_Url_Parameter: "Obtenir une valeur à partir du paramètre URL",
+  Delete: "Supprimer",
+  Checkbox: "Case à cocher",
+  Max_Value: "Valeur maxi",
+  Edit: "Modifier",
+  Initially_Checked: "Cochée initialement:",
+  Select: "Sélectionner",
+  Styles: "Styles",
+  Fieldset_Label: "Étiquette de jeu de champs",
+  Field_Width: "Largeur du champ",
+  Currency: "Devise",
+  Default_Value: "Valeur par défaut:",
+  Use_Default_Value: "Utiliser la valeur par défaut :",
+  Enable_Global_Form_Validation_Rule: "Règles générales de validation du formulaire",
+  Multiple_Selections: "Choix multiple:",
+  If_checked_prior_value_will_be_shown_when_form_is_rendered: "Si cochée, la valeur précédente sera affichée à la remise du formulaire",
+  Time: "heure",
+  Enable_Form_Captcha: "CAPTCHA",
+  Label_Width: "Largeur de l'intitulé",
+  DragButtonToReposition: "Faire glisser le bouton pour le repositionner",
+  Instructions: "Instructions:",
+  Values: "Valeurs:",
+  Get_Value_From_Cookie: "Obtenir une valeur à partir du cookie",
+  Text_Area: "Zone de texte",
+  Checkboxes: "Cases à cocher",
+  Label: "Intitulé :",
+  Color: "couleur",
+  Edit_Count: "Modifier ({0})",
+  Standard: "Standard",
+  Button_Style: "Style du bouton:",
+  Select_Marketo_Field: "Sélectionner le Champ Marketo",
+  Offset_Width: "Largeur du retrait:",
+  Datetime: "datetime",
+  Float: "Flottante",
+  Enabled: "Activé",
+  Date: "Date",
+  Slider: "Curseur",
+  Hint_Text: "Conseil:",
+  Error_Message: "Message de validation",
+  Behavior: "Comportement",
+  Double: "Double",
+  Select_Default: "Sélectionner…",
+  Url: "URL",
+  Field_Type: "Type de champ",
+  Append: "Joindre:",
+  Telephone: "Téléphone",
+  Is_Required: "Est requis:",
+  Parameter_Name: "Nom du paramètre :",
+  Custom: "Personnalisé",
+  Form_Pre_Fill: "Préremplissage du formulaire :",
+  Radio_Buttons: "Cases d'option"
+};
 Mkt3L10n.socialAppEditorVideoShareSettingsGroup = {
   Video_End: "Fin de la vidéo",
   After_Share: "Après le partage",
@@ -4040,7 +4031,6 @@ Mkt3L10n.LandingPage = {
   Font_Family: "Font-Family",
   Layer: "Layer",
   Font_used_for_text: "Police du texte",
-  Height_: "",
   Hide_Guides: "Masquer les guides",
   Link_URL: "Lien URL",
   type_of_Bullets_or_numbering_to_show: "Type de puces ou de numération à afficher",
@@ -4086,7 +4076,8 @@ Mkt3L10n.LandingPage = {
   Width_in_px_of_element_border: "Largeur en pixels de la bordure de l'élément",
   Show_Guides: "Afficher les guides",
   normal_italic_or_oblique: "normal, italique ou oblique",
-  OK: "OK"
+  OK: "OK",
+  Height_: ""
 };
 Mkt3L10n.socialAppEditorTimelineSettingsGroup = {
   Select: "Sélectionner…",
@@ -4172,8 +4163,8 @@ Mkt3L10n.Email = {
   Errors_Fixed_arg0: "Erreurs corrigées :<ul>{0}</ul>",
   No_CSS_changes_were_made: "Aucune modification CSS n'a été apportée",
   Unsupported_component_type: "Type de composant non pris en charge",
-  Unsupported_key_type: "Type de code non pris en charge",
   Preview_Draft: "Aperçu du brouillon",
+  Unsupported_key_type: "Type de code non pris en charge",
   Replace_HTML_not_available_emails_dynamic_content: "La modification du code n’est pas disponible pour les e-mails avec du contenu dynamique",
   CSS_errors_detected_in_your_email: "Erreurs CSS détectées dans votre e-mail",
   Script_tags_found: "Marketo n’autorise pas les balises de script ou JavaScript dans le code HTML des e-mails",
@@ -4249,8 +4240,8 @@ Mkt3L10n.migrationConsole = {
   Filtering_Text: "Filtrage, veuillez patienter...",
   Admin_Grid_Panel_Headers: {
     Migration_Date: "Date de migration",
-    Workspace_Text: "Espace de travail",
     Last_Login_Date: "Date de dernière connexion",
+    Workspace_Text: "Espace de travail",
     Activation_Status: "Statut d'activation",
     Name: "Nom",
     Email_Verification_Text: "Statut de vérification",
@@ -4273,7 +4264,6 @@ Mkt3L10n.migrationConsole = {
     Unverified: "Non vérifié",
     Verified: "Vérifié"
   },
-  User_Progress_Status_Text: "",
   Confirm_Message: "Êtes-vous sûr de vouloir confirmer l’achèvement de la migration ?<br><b>Cela finalisera la migration et supprimera la console de migration</b>",
   Email_Verification_Filter_Text: "Statut de vérification des e-mails",
   Go_to_Admin_Console: "Accédez à la console d'administration",
@@ -4281,10 +4271,8 @@ Mkt3L10n.migrationConsole = {
   To_Modify_Migration: "Pour modifier votre date de début, accédez à la console de pré-migration.",
   Percent_: "{0} %",
   Migration_Date_Extend_Total: "Ce sera l’extension <b>{0} sur 3</b>",
-  Subscription_Migration_Expiration: "",
   Migration_Failed: "La migration d'un utilisateur a échoué. Vérifiez la console de migration.",
   Last_Login_Range_Filter_Text: "Dernière plage de connexion",
-  Email_Progress_Status_Text: "",
   Migration_Date_Extend_Confirmation: "Êtes-vous sûr de vouloir prolonger l’expiration d’une (1) semaine ?",
   No_Results_Text: "Aucun résultat à afficher!",
   Activity_Status_Filter_Text: "Statut de l'activité",
@@ -4302,7 +4290,10 @@ Mkt3L10n.migrationConsole = {
   Workspace_Filter_Text: "Espace de travail",
   Go_to_Pre_Migration_Console: "Accédez à la console de pré-migration",
   Migration_Start_in_Days_: "La gestion des utilisateurs Marketo sera transférée dans la console d'administrateur Adobe dans <span style=\"color:chocolate\">{0} jours</span>.",
-  Expires_in_Days_: "Expire dans {0} jours"
+  Expires_in_Days_: "Expire dans {0} jours",
+  User_Progress_Status_Text: "",
+  Subscription_Migration_Expiration: "",
+  Email_Progress_Status_Text: ""
 };
 Mkt3L10n.controllerVariants = {
   Emails: "E-mails",
@@ -4468,7 +4459,6 @@ Mkt3L10n.mobilePushNotificationSummaryPanel = {
   Offer_Limit: "Limites l'offre",
   Fulfillment_Goal_Type_Signup: "{0} Inscription sur parrainage",
   Offers_Sent: "Offres envoyées",
-  Total_Codes_Uploaded_Without_Available_First: "",
   Summary: "Sommaire",
   Created: "Créé",
   Total_Codes_Uploaded_Without_Available_Second: "{0} code en attente - en télécharger plus !)",
@@ -4481,7 +4471,8 @@ Mkt3L10n.mobilePushNotificationSummaryPanel = {
   Push_Notification: "Notification Push",
   Push_Status: "état",
   Statistics: "Statistiques",
-  Platforms: "Plateformes"
+  Platforms: "Plateformes",
+  Total_Codes_Uploaded_Without_Available_First: ""
 };
 Mkt3L10n.adminAbmTeamSettingsPanel = {
   Manage_ABM_Team_Settings: "Gérer les paramètres d’équipe TAM",
@@ -4675,7 +4666,6 @@ Mkt3L10n.testGroupSummaryPanel = {
   Send_a_Reminder: "Envoyer un rappel",
   Winning_Criteria: "Critères pour gagner",
   Test_End_Date: "Tester date de fin",
-  View_: "",
   Status: "Statut",
   Test_Type: "Tester le type",
   Settings: "Paramètres",
@@ -4683,7 +4673,8 @@ Mkt3L10n.testGroupSummaryPanel = {
   Used_By: "Utilisé par",
   Test_Start_Date: "Tester date de début",
   Summary: "Sommaire",
-  Champion_Selection: "Sélection du champion"
+  Champion_Selection: "Sélection du champion",
+  View_: ""
 };
 Mkt3L10n.abmNamedAccountDeleteNamedAccountForm = {
   Named_Accounts_Could_Not_Be_Deleted: "Impossible de supprimer {0} comptes nommés",
@@ -4899,18 +4890,6 @@ Mkt3L10n.adminEditSubscriptionForm = {
   Confirm_Changes: "Confirmer les modifications",
   Are_you_sure_you_want_to_permanently_delete_sub: "Voulez-vous vraiment supprimer de façon permanente cet abonnement?"
 };
-Mkt3L10n.socialAppEditorShareUrlSettingsGroup = {
-  Share_Post_Links_To: "Partager les liens <br/>postés vers",
-  YouTube_Video_Page: "Page vidéo de YouTube",
-  Ex_Your_Website: "http://yourwebsite.com",
-  Destination_URL: "URL de destination",
-  Landing_Page: "Page de destination",
-  Share_URL: "Partager l'URL",
-  Other_Landing_Page: "Autre page de destination",
-  External_URL: "URL externe",
-  _Select: "Sélectionner…",
-  Referring_Page: "Page de référence"
-};
 Mkt3L10n.adminSalesUserInviteWizard = {
   Invite_New_Sales_User: "Inviter un nouvel utilisateur du service commercial",
   An_Invitation_Is_Not_Required_For_API_Only: "Une invitation n’est pas requise pour API uniquement",
@@ -5096,11 +5075,11 @@ Mkt3L10n.testGroupChampionChallengerEditorSummary = {
   Champion_Criteria: "Critères champion",
   Send_Report_Every: "Envoyer le rapport tous les",
   Click_To_Open_Ratio: "Clic pour ouverture %",
-  And: "",
   Thursday: "Jeudi",
   Distribution: "Distribution",
   Champion_Split: "Champion - {0}%",
-  Test_Type: "Tester le type"
+  Test_Type: "Tester le type",
+  And: ""
 };
 Mkt3L10n.inAppMessageEditorPrimaryButtonStyle = {
   Color: "Couleur",
@@ -5187,7 +5166,6 @@ Mkt3L10n.smartListReportSubscriptionGrid = {
   no_of_items: "{0} éléments",
   Subscriptions: "Abonnements",
   Frequency: "Fréquence",
-  Report_Name: "",
   View: "Afficher",
   Format: "Format",
   Report_Columns: "Colonnes du rapport",
@@ -5200,7 +5178,8 @@ Mkt3L10n.smartListReportSubscriptionGrid = {
   Last_Run: "Dernière exécution",
   Check_this_box_to_enable_the_subscription: "Cocher la case pour activer l'abonnement",
   Search_by_name: "Rechercher avec le nom",
-  Default: "Par défaut"
+  Default: "Par défaut",
+  Report_Name: ""
 };
 Mkt3L10n.TestGroupToolbar = {
   Approve_Failed: "Échec de la validation",
@@ -5477,12 +5456,12 @@ Mkt3L10n.socialAppSummaryPanel = {
   View_Social_Dashboard: "Afficher le tableau de bord des réseaux sociaux",
   Type: "Type",
   Fulfillment_Goal_Type_Visit: "{0} Visites sur recommandation",
-  Total_Codes_Uploaded_Without_Available_First: "",
   Fulfillment_Codes_Remaining: "{0}({1} restant)",
   Total_Codes_Uploaded: "Tous les codes",
   This_app_has_not_been_approved: "Cette appli n'a pas été approuvée",
   Fulfillment_Codes_Need_More: "{0} ({1}restants), encore {2}!",
-  Summary: "Sommaire"
+  Summary: "Sommaire",
+  Total_Codes_Uploaded_Without_Available_First: ""
 };
 Mkt3L10n.modelSocialAppStats = {
   Last_30_days: "Ces 30 derniers jours",
@@ -5546,26 +5525,6 @@ Mkt3L10n.abmIcpModelingNewAccounts = {
   We_Apologize_But_We_Have_Encountered_A_System_Error: "Nous sommes désolés, mais nous avons rencontré une erreur système. Veuillez réessayer dans quelques minutes.<br>Si le problème persiste, veuillez contacter <u>support@marketo.com</u>.",
   This_May_Take_Some_Time_You_May_Close_This_Tab_And_Continue_Working_Elsewhere_In_Marketo: "Cette action peut prendre un certain temps. Vous pouvez fermer cet onglet et continuer à travailler ailleurs dans Marketo. Vous recevrez une notification lorsque l’action sera terminée.",
   Account_Profiling: "Account Profiling"
-};
-Mkt3L10n.mktocustomactivityTreePanel = {
-  New_Custom_Activity: "Nouvelle activité personnalisée",
-  Custom_Activities: "Activités personnalisées Marketo"
-};
-Mkt3L10n.inAppMessageEditorImageStyle = {
-  Select_Image: "Sélectionner l'image",
-  Fit_Image: "Adaptation à l’image",
-  Px: "px",
-  Border: "Bord",
-  Image_Properties: "Propriétés de l’image",
-  Image_Label: "Image:",
-  Image_Tap_Action: "Action d’appui sur image",
-  Corner_Radius: "Rayon d’angle",
-  Width: "Largeur",
-  Image: "Image",
-  Margins: "Marges",
-  Recommended: "Recommandation :<br/>1080 x 1080 et moins de 5 Mo",
-  Height: "Hauteur",
-  Both: "Les deux"
 };
 Mkt3L10n.adBridgeForm = {
   Ad_bridge_partner_ad_message_facebook: "Concentrez vos dépenses publicitaires Facebook sur les bons clients potentiels.  Connectez votre compte publicitaire Facebook à Marketo pour créer, modifier et remplacer facilement une audience personnalisée Facebook avec des leads depuis les listes statiques et intelligentes de Marketo.<br/><br/><a href='{0}' target='_blank'>En savoir plus</a>",
@@ -5653,11 +5612,11 @@ Mkt3L10n.landingPagePreviewer = {
   Approve_and_Close: "Approuver et fermer",
   View_By_Segment: "Afficher par segment",
   Generate_Preview_URL: "Générer l’URL d’aperçu",
-  List: "",
   View_Default: "Affichage par défaut",
   No_Leads_Found: "Leads introuvables",
   View_Lead_Detail: "Afficher par détail de lead",
-  Mobile: "Mobile"
+  Mobile: "Mobile",
+  List: ""
 };
 Mkt3L10n.vespaAppForm = {
   Description: "Description",
@@ -5782,6 +5741,22 @@ Mkt3L10n.trackCadenceForm = {
 Mkt3L10n.inAppMessageEditorStylePanel = {
   Style: "Style"
 };
+Mkt3L10n.socialAppEditorShareUrlSettingsGroup = {
+  Share_Post_Links_To: "Partager les liens <br/>postés vers",
+  YouTube_Video_Page: "Page vidéo de YouTube",
+  Ex_Your_Website: "http://yourwebsite.com",
+  Destination_URL: "URL de destination",
+  Landing_Page: "Page de destination",
+  Share_URL: "Partager l'URL",
+  Other_Landing_Page: "Autre page de destination",
+  External_URL: "URL externe",
+  _Select: "Sélectionner…",
+  Referring_Page: "Page de référence"
+};
+Mkt3L10n.mktocustomactivityTreePanel = {
+  New_Custom_Activity: "Nouvelle activité personnalisée",
+  Custom_Activities: "Activités personnalisées Marketo"
+};
 Mkt3L10n.adminScoreSettings = {
   Remove_Score_Settings: "Supprimer les paramètres d’évaluation",
   External_Score_API_Enabled: "Évaluation externe (API activé)",
@@ -5863,7 +5838,6 @@ Mkt3L10n.LeadNurture = {
 };
 Mkt3L10n.reconfigureAuthForm = {
   reRun: "Exécutez à nouveau la reconfiguration pour changer OU ressaisissez les informations d'identification dans Admin pour revenir à {0}. Si la situation persiste, contactez le support Marketo.",
-  Do_you_want_to_switch_auth_method_to: "",
   SOAP: "SOAP",
   NewAuthMethod: "Nouvelle méthode d'authentification",
   Success_message: "La reconfiguration vers l'authentification {0} a été effectuée avec succès. N'oubliez pas de réactiver la synchronisation.",
@@ -5883,7 +5857,8 @@ Mkt3L10n.reconfigureAuthForm = {
   Reconfigure_Auth_Setup: "Reconfigurer l'authentification",
   CurrentAuthMethod: "Méthode d'authentification actuelle",
   WEB_API: "API web",
-  switch_failure: "Identifiants enregistrés pour {1} mais abonnement toujours en cours à {0} : {2}."
+  switch_failure: "Identifiants enregistrés pour {1} mais abonnement toujours en cours à {0} : {2}.",
+  Do_you_want_to_switch_auth_method_to: ""
 };
 Mkt3L10n.Feature = {
   GA: "GA",
@@ -5962,6 +5937,22 @@ Mkt3L10n.adminNewSubscriptionFormV2 = {
   New_User: "Nouvel utilisateur",
   Customer_Prefix_Cannot_Have_Uppercase: "Le préfixe du client ne peut pas contenir de caractères en MAJUSCULE",
   Last_Name: "Nom"
+};
+Mkt3L10n.inAppMessageEditorImageStyle = {
+  Select_Image: "Sélectionner l'image",
+  Fit_Image: "Adaptation à l’image",
+  Px: "px",
+  Border: "Bord",
+  Image_Properties: "Propriétés de l’image",
+  Image_Label: "Image:",
+  Image_Tap_Action: "Action d’appui sur image",
+  Corner_Radius: "Rayon d’angle",
+  Width: "Largeur",
+  Image: "Image",
+  Margins: "Marges",
+  Recommended: "Recommandation :<br/>1080 x 1080 et moins de 5 Mo",
+  Height: "Hauteur",
+  Both: "Les deux"
 };
 Mkt3L10n.controllerVespaVerifyPushForm = {
   Not_Found: "Introuvable",
@@ -6090,7 +6081,6 @@ Mkt3L10n.controllerSocialApp = {
   Fulfillment_Goal_Type_Signup: "{0} Inscription sur parrainage",
   Fulfillment_Codes_Remaining: "{0}({1} restant)",
   Delete_Social_App: "Supprimer {0}",
-  Total_Codes_Uploaded_Without_Available_First: "",
   Button_Text_Approval_Error: "{0} ne peut pas être approuvé avant que le texte du bouton ne soit indiqué",
   Timeline_Approval_Error: "{0} ne peut pas être approuvé avant que le champ \\\"Échelle de temps\\\" ne soit renseigné",
   Rules_Approval_Error: "{0} ne peut pas être approuvé avant que le champ \\\"Règles\\\" ne soit renseigné",
@@ -6099,7 +6089,8 @@ Mkt3L10n.controllerSocialApp = {
   Are_you_sure_you_want_to_delete: "Voulez-vous vraiment supprimer {0}?",
   Total_Codes_Uploaded_Without_Available_Second: "{0} code en attente - en télécharger plus !)",
   Please_wait: "Veillez patienter...",
-  Social_App_Delete_Not_Allowed: "{0} est utilisé dans la page de destination et ne peut pas être supprimé"
+  Social_App_Delete_Not_Allowed: "{0} est utilisé dans la page de destination et ne peut pas être supprimé",
+  Total_Codes_Uploaded_Without_Available_First: ""
 };
 Mkt3L10n.formLanguage = {
   Danish: "danois",
@@ -6546,13 +6537,13 @@ Mkt3L10n.auditTrailAdminDetails = {
   Action: "Action",
   Admin_Area: "Zone d’administration",
   Change_Details: "Modifier les détails",
-  Old_Roles: "",
   Name: "Nom",
   Roles: "Rôles",
   Permissions: "Permissions",
   No_permissions_are_assigned: "Aucune permission n’est attribuée",
   Email: "E-mail",
-  Close: "Fermer"
+  Close: "Fermer",
+  Old_Roles: ""
 };
 Mkt3L10n.smsMessageEditorLinkForm = {
   Insert_Link: "Insérer le lien",
@@ -6656,21 +6647,21 @@ Mkt3L10n.editAdWordsMappingsForm = {
 };
 Mkt3L10n.mktSmsMessage = {
   Discarding_Draft: "Abandonner l’avant-projet",
-  Are_you_sure_you_want_to_delete: "",
   Sms_Message_Delete_Not_Allowed_As_Approved: "<b>{0}</b> est approuvé et doit être non approuvé avant de le supprimer",
   You_must_approve_again: "Veuillez approuver de nouveau pour que les changements entrent en vigueur.",
   Delete_Sms_Message: "Supprimer un message SMS",
   Please_Wait: "Veillez patienter...",
   Approved: "Approuvé",
-  Sms_Message_Delete_Not_Allowed: "<b>{0}</b> est en cours d’utilisation et ne peut pas être supprimé"
+  Sms_Message_Delete_Not_Allowed: "<b>{0}</b> est en cours d’utilisation et ne peut pas être supprimé",
+  Are_you_sure_you_want_to_delete: ""
 };
 Mkt3L10n.assetForm = {
   Name: "Nom",
   Save_To: "Enregistrer dans",
   Clone_Asset: "Cloner une ressource",
   Description: "Description",
-  Open_Editor: "Ouvrir dans l'éditeur",
   New_Asset: "Nouvelle ressource",
+  Open_Editor: "Ouvrir dans l'éditeur",
   Create: "Créer",
   AAM_Clone_Note: "La liste clonée comprendra tous les membres actuels de la liste, mais ne sera pas synchronisée depuis une audience Experience Cloud.",
   Save_From: "Enregistrer depuis",
@@ -6955,12 +6946,12 @@ Mkt3L10n.AdobeConnect = {
   Label_Name: "Nom",
   User_name: "Nom d'utilisateur",
   Member_name: "Nom du membre",
-  No_user_found_with_given_hostIntegrationPartnerId: "",
   Users: "Utilisateurs",
   Empty_Text: "Saisir un nom ...",
   Add_Users: "Ajouter des utilisateurs",
   Contact_the_admin_to_enable_the_IMS_access: "Veuillez contacter l’administrateur pour activer l’accès IMS pour les webinaires interactifs.",
   Connect_Users: "Connecter les utilisateurs",
+  No_user_found_with_given_hostIntegrationPartnerId: "",
   Host_Already_Deleted: ""
 };
 Mkt3L10n.formAssetForm = {
@@ -7402,14 +7393,14 @@ Mkt3L10n.abmAccountListGrid = {
 };
 Mkt3L10n.mktInAppMessage = {
   You_must_approve_again: "Veuillez approuver de nouveau pour que les changements entrent en vigueur.",
-  Are_you_sure_you_want_to_delete: "",
   Before_sending_a_sample: "Avant d’envoyer un échantillon, revenez à la première étape de l’éditeur de message interne à l’application et sélectionnez une application",
   Please_Wait: "Veillez patienter...",
   Approved: "Approuvé",
   In_App_Message_Delete_Not_Allowed_As_Approved: "<b>{0}</b> est approuvé et doit être non approuvé avant de le supprimer",
   Discarding_Draft: "Abandonner l’avant-projet",
   In_App_Message_Delete_Not_Allowed: "<b>{0}</b> est en cours d’utilisation et ne peut pas être supprimé",
-  Delete_In_App_Message: "Supprimer le message interne à l’application"
+  Delete_In_App_Message: "Supprimer le message interne à l’application",
+  Are_you_sure_you_want_to_delete: ""
 };
 Mkt3L10n.audienceImportForm = {
   Only_New_Marketo_List: "Seules une nouvelle liste Marketo ou des listes Marketo existantes sans aucun membre peuvent être utilisées comme destinations de synchronisation.",
@@ -7590,9 +7581,7 @@ Mkt3L10n.assetNoDraftApprovalForm = {
   Approved_Remains_Approved_Draft_remain_Draft: "Approuvé reste approuvé </br> Le brouillon reste un brouillon",
   Draft: "Brouillon",
   Approve_Arg0: "Approuver {0}",
-  All_assets_using_these_arg0_will_get_updates_arg1_learn_more: "",
   Only_the_draft_will_get_the_updates_and_remain_in_draft: "Seul le brouillon obtiendra les </br>mises à jour et restera en brouillon",
-  Arg0_Assets_Will_Get_Updates_Arg1_Learn_More: "",
   Approve: "Approuver",
   Approved: "Approuvé",
   Becomes_approved_with_draft: "Devient approuvé avec le brouillon",
@@ -7600,7 +7589,9 @@ Mkt3L10n.assetNoDraftApprovalForm = {
   Remains_Draft: "Reste un brouillon",
   Update_All: "Tout mettre à jour",
   Note_only_works_for_one_arg0_at_a_time: "Remarque : fonctionne uniquement pour un {0} à la fois",
-  Remains_Approved: "Reste approuvé"
+  Remains_Approved: "Reste approuvé",
+  All_assets_using_these_arg0_will_get_updates_arg1_learn_more: "",
+  Arg0_Assets_Will_Get_Updates_Arg1_Learn_More: ""
 };
 Mkt3L10n.newSmartListGoalForm = {
   Create: "Créer",
@@ -7691,9 +7682,9 @@ Mkt3L10n.WEditor = {
 };
 Mkt3L10n.ColumnSetDialog = {
   Delete: "Supprimer",
+  Search: "Rechercher...",
   Marketo_Columns: "Colonnes Marketo",
   Edit_Columns: "Modifier les colonnes",
-  Search: "Rechercher...",
   Create: "Créer",
   Find_: "Chercher...",
   Editing_Column_View: "Modification de la présentation de la colonne",
@@ -8088,6 +8079,9 @@ Mkt3L10n.adminPasswordForm = {
   Minimum_Characters: "Caractères {0} minimum",
   Passwords_Match: "Les mots de passe correspondent"
 };
+Mkt3L10n.snippetEditor = {
+  Preview_Draft: "Aperçu du brouillon"
+};
 Mkt3L10n.controllerSocialAppEditorSettings = {
   None: "Aucun",
   Total_Codes: "{0}({1} restant)",
@@ -8098,6 +8092,10 @@ Mkt3L10n.controllerSocialAppEditorSettings = {
 };
 Mkt3L10n.QuickSearch = {
   Quick_Find: "Recherche rapide..."
+};
+Mkt3L10n.canvasPanelHeader = {
+  Cancel: "Annuler",
+  Save: "Sauvegarder"
 };
 Mkt3L10n.adminUsersExportForm = {
   Visible_Columns_Recommended: "Colonnes visibles (recommandé)",
@@ -8113,6 +8111,15 @@ Mkt3L10n.socialAppEditorRulesSettingsGroup = {
   Rules_Text: "Intitulé du lien vers le règlement",
   Link_URL: "URL du lien vers le règlement",
   Show_Rules_Link: "Afficher le lien vers le règlement"
+};
+Mkt3L10n.emailBlastHeadStartABTestConfirmForm = {
+  Add_AB_Test: "Ajouter un test A/B",
+  Html_AB_Details_Prefix: "Voulez-vous désactiver",
+  Add: "Ajouter",
+  Html_AB_And: "",
+  Html_AB_Recipient_Time_Zone: "",
+  Html_AB_Head_Start: "",
+  Html_AB_Details_Suffix: ""
 };
 Mkt3L10n.runInAppProgramConfirmForm = {
   Run_Confirm_Note: "Le public comporte de nouveaux champs personnalisés. Cela peut prendre plusieurs minutes voire des heures avant que les messages ne soient visibles, en fonction de la taille du public",
@@ -8179,13 +8186,6 @@ Mkt3L10n.calendarWebinarDetailsSummaryPanel = {
   Details: "Détails",
   Event_Description: "Description de l’événement",
   Event_Partner: "Partenaire événement"
-};
-Mkt3L10n.snippetEditor = {
-  Preview_Draft: "Aperçu du brouillon"
-};
-Mkt3L10n.canvasPanelHeader = {
-  Cancel: "Annuler",
-  Save: "Sauvegarder"
 };
 Mkt3L10n.SyncMonitor = {
   Auto_saved: "Enregistré automatiquement",
@@ -8287,19 +8287,6 @@ Mkt3L10n.abmIcpModelingSaveRanksAndIndicatorsForm = {
   We_Apologize_But_We_Have_Encountered_A_System_Error_: "Nous sommes désolés, mais nous avons rencontré une erreur système. Veuillez réessayer dans quelques minutes. Si le problème persiste, veuillez contacter <u>support@marketo.com</u>.",
   Are_You_Sure_You_Want_To_Automatically_Promote_: "Voulez-vous vraiment promouvoir automatiquement tous les comptes classés A et B en compte nommé ? Veuillez valider le nombre de comptes classés A et B avant de continuer."
 };
-Mkt3L10n.filter = {
-  To: "",
-  False: "Faux",
-  Apply: "Appliquer",
-  Reset: "Réinitialiser",
-  True: "Vrai",
-  None: "Aucun",
-  Filter_By: "Filtrer par : <strong>{0}</strong>",
-  Select_A_Value: "Sélectionnez une valeur",
-  Null: "<em>nul</em>",
-  Export: "Exporter",
-  Add_Filter: "Ajouter un filtre"
-};
 Mkt3L10n.abmFilterAutoSuggest = {
   Empty: "Vide"
 };
@@ -8347,6 +8334,19 @@ Mkt3L10n.dcSweepstakesForm = {
   Insert_Sweepstakes: "Insérer les loteries",
   Sweepstakes: "Loteries",
   Replace: "Remplacer"
+};
+Mkt3L10n.filter = {
+  False: "Faux",
+  Apply: "Appliquer",
+  Reset: "Réinitialiser",
+  True: "Vrai",
+  None: "Aucun",
+  Filter_By: "Filtrer par : <strong>{0}</strong>",
+  Select_A_Value: "Sélectionnez une valeur",
+  Null: "<em>nul</em>",
+  Export: "Exporter",
+  Add_Filter: "Ajouter un filtre",
+  To: ""
 };
 Mkt3L10n.smsMessageEditorContentPanel = {
   Link: "Lien",
